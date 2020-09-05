@@ -4,3 +4,15 @@ Bom, basicamente o que ele faz na parte 1, é demonstrar o escopo dos tipos de d
 
 Questão 2
 
+Primeiro ele remove a coluna de atividade, por ser labels, e após isso ele calcula a correlação entre as colunas.
+
+A correlação entre as colunas é quando uma variavel é possível de ser interpretada ou chega a ser desnecessária pelo seu valor já ser presente ou dependente resultado de outras variaveis. Exemplo é ter a variavel da área de um lote, e ter a variavel da frente e lado do lote. 
+Traçando a correlação é possível de se ter uma noção númerica.
+A tabela de correlação, é basicamente o label da feature 1 e feature 2, exemplo Lado e frente, lado e num de banheiros, etc. Faz todas combinações possíveis e seus valores de correlação.
+Remove todos os valores NaN , e remove tudo abaixo da diagonal matricial ( por ser uma tabela que repete valores Imprima data[feature_cols].corr() , que você entende o que acontece melhor ),  e com isso usa-se dos metodos p/ calcular as correlações melhor.
+Ai ele mostra as correlações , frequencia que acontecem etc.
+
+Questão 3
+Separa o conjunto de dados em teste e treino, demonstra uma função que faz isso mantendo uma certa proporção ( bem interessante) e mostra a proporção final de cada "grupo" de "activity" no treino e teste.
+
+Questão 4
