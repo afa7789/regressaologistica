@@ -1,3 +1,5 @@
+Trabalho de IC - Arthur Abeilice e Jonathan Henrique
+
 Questão 1
 
 Bom, basicamente o que ele faz na parte 1, é demonstrar o escopo dos tipos de dados, o intervalo que temos a representação dos mesmos , e após isso ele demonstra que a colouna de atividade possúi labels ( textos/etiquetas ) que categoriza cada momento dos dados o que está sendo realizado. Ele pega esses labels e transforma os mesmos em um inteiro p/ representação númerica.
@@ -15,4 +17,5 @@ Ai ele mostra as correlações , frequencia que acontecem etc.
 Questão 3
 Separa o conjunto de dados em teste e treino, demonstra uma função que faz isso mantendo uma certa proporção ( bem interessante) e mostra a proporção final de cada "grupo" de "activity" no treino e teste.
 
-Questão 4
+Questões 4 e 5
+*Ver Jupyter Notebook
